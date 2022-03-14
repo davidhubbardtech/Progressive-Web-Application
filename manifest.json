@@ -1,0 +1,24 @@
+{
+"author": "David Hubbard",
+"id": "user",    
+"name": "USF Gallery",
+"short_name": "gallery",
+"start_url": "/",
+"display": "standalone",
+"theme_color": "#CFC493",
+"background_color": "#006747",
+"description": "A Tour Registry",
+"orientation": "landscape",
+"icons": [
+    {
+        "src": "images/main.jpg",
+        "sizes": "1200x675",
+        "type": "image/png"
+    },
+    {
+        "src": "images/icon.png",
+        "sizes": "225x225",
+        "type": "image/png"
+    }
+] 
+}

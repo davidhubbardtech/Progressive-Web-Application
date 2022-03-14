@@ -1,0 +1,12 @@
+.gallery {
+    margin: 9px 45px;
+}
+.gallery img {
+    transition: 1.2s;
+    padding: 16px;
+    width: 190px;
+}
+.gallery img:hover {
+    filter: saturate(200%);
+    transform: scale(1.1) ;
+}

@@ -1,0 +1,32 @@
+<!–– this app is designed to provide users with the ability to browse a gallery of photos similar to Pinterest or Instagram––>
+<!–- the app also lets users sign up for a tour on a given date and time––>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Navbar</title>
+        <link href="navbar.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel ="stylesheet">
+        <link rel="manifest" href="manifest.json">
+    </head>
+    <header>
+        <h1>USF<span>&nbspTour</span></h1>
+        <nav>
+            <ul>
+                <!–- the Outdoor.html sends users to the virtual gallery tour of USF ––>  
+                <!–- the appointment.html sends users to sign up to attend a campus tour ––>
+                <li><a href="pages/appointment/appointment.html">Schedule a Tour</a></li>
+                <li><a href="pages/Outdoor.html">Virtual Tour</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        <img src="images/main.jpg">
+    </body>
+    <!–-the final step of the index file is to link the root directory with the service worker––>
+    <script>
+    if(navigator.serviceWorker) {
+        navigator.serviceWorker.register('sw.js');
+    }
+    </script>
+</html>
